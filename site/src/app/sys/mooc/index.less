@@ -1,0 +1,84 @@
+@media screen and (min-width: 1000px) {
+  .g-moocdef {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .fn-btn {
+      background: #333;
+      border: none;
+      border-radius: 0;
+      transition: 0.7s;
+
+      &:hover {
+        background: #ff3300;
+      }
+    }
+
+    .m-title {
+      padding: 5px 10px;
+      font-size: 18px;
+      background: #eee;
+      color: #666;
+    }
+
+    &>.m-menu {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      height: 80px;
+
+      &>div {
+        margin: 0 80px 0 0;
+      }
+      
+
+      .m-menu-item {
+        padding: 5px 10px;
+        transition: .7s;
+        cursor: pointer;
+        border-left: 5px solid #fff;
+
+        &:hover {
+          color: #ff3300;
+          border-left: 5px solid #ff3300;
+        }
+
+        &:before {
+          content: ' ';
+          position: absolute;
+          display: block;
+          width: 400px;
+          height: 1px;
+          background: #eee;
+          background: linear-gradient(to right, #fff 0%,#333 100%);
+          top: 0;
+          right: 0;
+        }
+
+      }
+    }
+
+    .m-main {
+      padding: 10px;
+    }
+
+  
+
+  }
+
+
+  
+}  /*  end of min-width:1000   */
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+  
+
+}
